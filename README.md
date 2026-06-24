@@ -11,7 +11,7 @@ No ads. No telemetry. No nonsense. Just your music.
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square)](LICENSE.txt)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white)]()
-[![Author](https://img.shields.io/badge/Author-gantarugavr.me-A31616?style=flat-square)](https://gantarugavr.me)
+[![Author](https://img.shields.io/badge/Author-www.gantarugavr.me-A31616?style=flat-square)](https://www.gantarugavr.me)
 
 [Download Installer](#-installation) · [View Source](app.py) · [Report Bug](../../issues) · [Changelog](../../releases)
 
@@ -131,7 +131,7 @@ Get-FileHash dist\app.exe -Algorithm SHA256
 ## 📋 License & Terms
 
 Playitfy is released under the **GNU General Public License v3.0** with supplementary clauses.  
-See [LICENSE.txt](LICENSE.txt) for the full legal text.
+See [LICENSE](LICENSE) for the full legal text.
 
 ### Short Version
 
@@ -197,9 +197,9 @@ Found a bug? [Open an issue](../../issues) with steps to reproduce.
 
 <div align="center">
 
-Made with ❤️ by **[gantarugavr.me](https://gantarugavr.me)**
+Made with ❤️ by **[www.gantarugavr.me](https://www.gantarugavr.me)**
 
-[![Website](https://img.shields.io/badge/Website-gantarugavr.me-A31616?style=flat-square)](https://gantarugavr.me)
+[![Website](https://img.shields.io/badge/Website-www.gantarugavr.me-A31616?style=flat-square)](https://www.gantarugavr.me)
 [![GitHub](https://img.shields.io/badge/GitHub-gantarugavr-181717?style=flat-square&logo=github)](https://github.com/gantarugavr)
 
 _© 2026 Project ❄️ gantarugavr.me · Released under GPLv3_
