@@ -1,0 +1,144 @@
+================================================================================
+  PLAYITFY — OPEN SOURCE MUSIC PLAYER
+  Copyright (c) 2026  gantarugavr.me  |  https://github.com/gantarugavr/Playitfy
+================================================================================
+
+This software is licensed under the GNU General Public License v3.0 (GPLv3),
+with the following supplementary clauses that apply on top of the standard
+GPLv3 terms. Where these clauses conflict with GPLv3, these clauses prevail
+only to the extent they grant additional permissions or impose restrictions
+consistent with GPLv3's intent to keep the software free and open.
+
+A full copy of the GNU GPLv3 is available at:
+  https://www.gnu.org/licenses/gpl-3.0.txt
+
+
+────────────────────────────────────────────────────────────────────────────────
+  CLAUSE I — COPYLEFT INHERITANCE (GNU GPLv3)
+────────────────────────────────────────────────────────────────────────────────
+
+The source code of Playitfy (app.py and all associated files) is freely
+available on GitHub. You are permitted to:
+
+  ✔  Read, study, and learn from the source code.
+  ✔  Download and run the software for personal use at no cost.
+  ✔  Modify the source code for personal, educational, or non-commercial use.
+  ✔  Fork the repository and build derivative works.
+
+If you distribute a modified version of Playitfy to any third party — whether
+as source code, a compiled binary, or any other form — you MUST:
+
+  ①  Release the complete corresponding source code of your modified version
+      under the same GPLv3 license, publicly and at no charge.
+
+  ②  Clearly state that your version is a derivative of Playitfy and provide
+      a link to the original repository:
+        https://github.com/gantarugavr/Playitfy
+
+  ③  Preserve this license file in its entirety within your distribution.
+
+You are PROHIBITED from:
+
+  ✘  Re-licensing this software or any derivative under a proprietary,
+     closed-source, or non-GPLv3-compatible license.
+  ✘  Selling the software itself or a derivative as a paid product without
+     releasing the full source code under GPLv3.
+  ✘  Removing or replacing the copyright notice of the original author.
+
+
+────────────────────────────────────────────────────────────────────────────────
+  CLAUSE II — FORCED ATTRIBUTION (Anti-Plagiarism Logic)
+────────────────────────────────────────────────────────────────────────────────
+
+Playitfy contains an embedded attribution guard within its source code.
+The footer string:
+
+    "© 2026 Project ❄️ gantarugavr.me"
+
+is bound to the application's runtime integrity. The program performs a
+continuous self-check every 200 milliseconds. If the footer text is altered
+or removed at runtime, the application will immediately terminate itself.
+
+This mechanism exists as a logical filter, not as a DRM restriction.
+Any developer who studies the source code will understand and respect it.
+Plagiarists who blindly copy the code without reading it will encounter
+automatic failure upon execution.
+
+The following actions are explicitly prohibited:
+
+  ✘  Modifying or removing the footer attribution string in a distributed build
+     without replacing it with a clearly visible attribution notice crediting
+     the original author (gantarugavr.me) within the application UI.
+  ✘  Redistributing the application binary or source with the intent to
+     misrepresent authorship.
+
+If you create a legitimate fork with visible credit to the original author
+and your own identity, you may adapt the footer text accordingly, provided
+the original attribution remains somewhere visible in the application.
+
+
+────────────────────────────────────────────────────────────────────────────────
+  CLAUSE III — DISTRIBUTION INTEGRITY (End-User Protection)
+────────────────────────────────────────────────────────────────────────────────
+
+The official compiled binary (app.exe) released by gantarugavr.me is protected
+by a SHA-256 hash checksum embedded within the executable itself.
+
+Upon launch, the application verifies that its own binary has not been tampered
+with. If the hash does not match the expected value, the application will
+refuse to run.
+
+This mechanism exists solely to protect end-users. Its purpose is:
+
+  ①  To ensure that any binary circulating under the name "Playitfy" and
+      claiming to be an official release has not been modified to contain
+      malware, trojans, spyware, or any unauthorized code.
+
+  ②  To protect the reputation of the original developer. If a malicious actor
+      injects harmful code into the official binary and redistributes it,
+      the integrity check will catch it and prevent execution.
+
+This clause applies specifically to binaries distributed as official releases.
+Developers building from source for personal use or legitimate forks are
+naturally exempt — their own compiled binary will carry their own hash.
+
+The following actions are prohibited:
+
+  ✘  Distributing a modified version of the official app.exe while claiming
+     it is an unmodified official release from gantarugavr.me.
+  ✘  Stripping or bypassing the integrity check in a redistribution with
+     the intent to spread modified binaries under the original author's name.
+
+
+────────────────────────────────────────────────────────────────────────────────
+  SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+
+  ┌─────────────────────────────────┬───────────┬──────────────────────────┐
+  │ Action                          │ Allowed?  │ Condition                │
+  ├─────────────────────────────────┼───────────┼──────────────────────────┤
+  │ Personal use                    │    ✔ Yes  │ No conditions            │
+  │ Read & study source             │    ✔ Yes  │ No conditions            │
+  │ Modify for personal use         │    ✔ Yes  │ No conditions            │
+  │ Fork & redistribute (open)      │    ✔ Yes  │ Must use GPLv3 + credit  │
+  │ Use in commercial product       │    ✔ Yes  │ Source must be open/GPLv3│
+  │ Sell as closed-source product   │    ✘ No   │ Prohibited by GPLv3      │
+  │ Remove author attribution       │    ✘ No   │ Clause II                │
+  │ Redistribute tampered .exe      │    ✘ No   │ Clause III               │
+  └─────────────────────────────────┴───────────┴──────────────────────────┘
+
+
+================================================================================
+  GNU GENERAL PUBLIC LICENSE v3.0 — FULL TEXT
+  https://www.gnu.org/licenses/gpl-3.0.txt
+================================================================================
+
+For the complete legal text of the GNU GPLv3, please visit the URL above.
+By installing, copying, or using Playitfy, you agree to be bound by the terms
+of this license and the supplementary clauses stated above.
+
+  Project Repository : https://github.com/gantarugavr/Playitfy
+  Author Contact     : https://gantarugavr.me
+  License Version    : GPLv3 + Supplementary Clauses v1.0 (2026)
+
+================================================================================

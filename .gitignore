@@ -1,0 +1,19 @@
+# Cache sistem Python
+__pycache__/
+*.py[cod]
+
+# Folder hasil kompilasi PyInstaller
+build/
+dist/
+*.spec
+
+# Folder hasil Inno Setup
+Output/
+
+# Lingkungan Virtual (jika digunakan)
+venv/
+env/
+
+# Cache OS
+Thumbs.db
+.DS_Store
